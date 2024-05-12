@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4eef2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #364d5b;
+}
+
+.input-field {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-field[type="email"] {
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 10px 20px; /* Tamaño del botón */
+    font-size: 14px; /* Tamaño de la fuente */
+    font-weight: bold;
+    background-color: #364d5b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #293a46;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #364d5b;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.upload-section {
+    text-align: center;
+}
+
+.upload-section h3 {
+    font-size: 24px; /* Tamaño de la fuente */
+    font-weight: bold;
+    color: #364d5b; /* Color del botón */
+}
+
+.input-field[name="abilityName"],
+.input-field[name="briefDescription"] {
+    width: 50px; /* Ancho cuadrado */
+    text-align: center;
+}
+
+.button[type="submit"] {
+    width: 5px; /* Tamaño normal */
+    padding: 10px 20px; /* Espaciado del botón */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.ability-form {
+    width: 1000px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #e4eef2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
